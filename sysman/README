@@ -1,1 +1,2 @@
 do_cluster.sh - Reads hostlist and executes command line arguments as root on other nodes.  requires public-key, gssapi or some other non password requiring mode of ssh to make this work.
+check_security_update.sh - Checks yum for security updates and emails me the results.  I usually run this with cron so I get updates daily.
